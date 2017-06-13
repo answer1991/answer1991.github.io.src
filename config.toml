@@ -1,5 +1,6 @@
 baseurl = "https://answer1991.github.io/"  # End your URL with a `/` trailing slash.
 title = "answer1991"
+relURL = "/img/icon.jpg"
 copyright = "&copy; 2016 answer1991"
 theme = "academic"
 enableEmoji = true
@@ -23,12 +24,15 @@ defaultContentLanguageInSubdir = false
   role = "Software Engineer"
   organization = "alipay.com"
   organization_url = ""
-  avatar = "portrait.jpg"
+  avatar = "avatar.png"
   email = "answer1991.chen@gmail.com"
-  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
-  phone = "+86 15824140308"
-  skype = "echo123"
+  address = ""
+  office_hours = ""
+  phone = "+86 158-2414-0308"
+  weibo = "answer1991chen"
+  wechat = "answer1991chen"
+  github = "answer1991"
+  skype = ""
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -76,9 +80,9 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = []
-  # highlight_style = "github"
-  # highlight_version = "9.9.0"
+  highlight_languages = ["go", "bash", "java", "javascript"]
+  highlight_style = "github"
+  highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
   sharing = true
