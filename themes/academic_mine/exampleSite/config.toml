@@ -1,8 +1,7 @@
-baseurl = "https://answer1991.github.io/"  # End your URL with a `/` trailing slash.
-title = "answer1991"
-relURL = "/img/icon.jpg"
-copyright = "&copy; 2016 answer1991"
-theme = "academic_mine"
+baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
+title = "Academic"
+copyright = "&copy; 2016 Your Name"
+theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 
@@ -20,19 +19,16 @@ defaultContentLanguageInSubdir = false
   hrefTargetBlank = true
 
 [params]
-  name = "陈俊"
-  role = "Software Engineer"
-  organization = "alipay.com"
+  name = "Lena Smith"
+  role = "Professor of Artificial Intelligence"
+  organization = "Stanford University"
   organization_url = ""
-  avatar = "avatar.png"
-  email = "answer1991.chen@gmail.com"
-  address = ""
-  office_hours = ""
-  phone = "+86 158-2414-0308"
-  weibo = "answer1991chen"
-  wechat = "answer1991chen"
-  github = "answer1991"
-  skype = ""
+  avatar = "portrait.jpg"
+  email = "test@example.org"
+  address = "Building 1 Room 1, Stanford University, California, 90210, USA"
+  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  phone = "888 888 88 88"
+  skype = "echo123"
   telegram = ""
 
   # Enable Keybase in Contact section by entering your keybase.io username.
@@ -40,7 +36,7 @@ defaultContentLanguageInSubdir = false
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
-  date_format = "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -80,9 +76,9 @@ defaultContentLanguageInSubdir = false
   #   For more info on the highlighting options, see:
   #   https://gcushen.github.io/hugo-academic-demo/post/writing-markdown-latex/#highlighting-options
   highlight = true
-  highlight_languages = ["go", "bash", "java", "javascript"]
-  highlight_style = "github"
-  highlight_version = "9.9.0"
+  highlight_languages = []
+  # highlight_style = "github"
+  # highlight_version = "9.9.0"
 
   # Enable native social sharing buttons?
   sharing = true
@@ -129,22 +125,22 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "envelope"
     icon_pack = "fa"
-    link = "mailto:answer1991.chen@gmail.com"
+    link = "mailto:test@example.org"
 
   [[params.social]]
-    icon = "weibo"
+    icon = "twitter"
     icon_pack = "fa"
-    link = "//weibo.com/answer1991chen"
+    link = "//twitter.com/GeorgeCushen"
 
   [[params.social]]
-    icon = "weixin"
-    icon_pack = "fa"
-    link = "/img/wechat_code.jpeg"
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/answer1991"
+    link = "//github.com/gcushen"
 
 
 # Navigation Links
@@ -153,22 +149,32 @@ defaultContentLanguageInSubdir = false
 #   The weight parameter defines the order that the links will appear in.
 
 [[menu.main]]
-  name = "主页"
+  name = "Home"
   url = "#about"
   weight = 1
 
 [[menu.main]]
-  name = "文章"
+  name = "Publications"
+  url = "#publications_selected"
+  weight = 2
+
+[[menu.main]]
+  name = "Posts"
   url = "#posts"
   weight = 3
 
 [[menu.main]]
-  name = "项目"
+  name = "Projects"
   url = "#projects"
   weight = 4
 
 [[menu.main]]
-  name = "联系方式"
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
+
+[[menu.main]]
+  name = "Contact"
   url = "#contact"
   weight = 6
 
