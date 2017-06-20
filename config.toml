@@ -1,7 +1,7 @@
 baseurl = "https://answer1991.github.io/"  # End your URL with a `/` trailing slash.
 title = "answer1991"
 relURL = "/img/icon.jpg"
-copyright = "&copy; 2016 answer1991"
+copyright = "&copy; 2017 answer1991"
 theme = "academic_mine"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -13,7 +13,7 @@ disqusShortname = ""
 googleAnalytics = ""
 
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 
 [blackfriday]
@@ -182,5 +182,7 @@ defaultContentLanguageInSubdir = false
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 
 # Configure the English version of the website.
-[languages.en]
-  languageCode = "en-us"
+#[languages.en]
+#  languageCode = "en-us"
+[languages.zh]
+  languageCode = "zh-cn"

@@ -5,7 +5,7 @@
 date = "2016-04-20T00:00:00"
 draft = false
 
-title = "Projects"
+title = "项目"
 subtitle = ""
 widget = "projects"
 
@@ -26,11 +26,11 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
+  name = "运维管理平台"
   tag = ".deep-learning"
 
 [[filter]]
-  name = "Other"
+  name = "分布式计算系统"
   tag = ".demo"
 
 +++

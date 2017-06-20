@@ -48,7 +48,8 @@
 
       {{ with $page.Params.interests }}
       <div class="col-sm-5">
-        <h3>{{ i18n "interests" | markdownify }}</h3>
+        <!--<h3>{{ i18n "interests" | markdownify }}</h3>-->
+        <h3>专注领域</h3>
         <ul class="ul-interests">
           {{ range .interests }}
           <li>{{ . }}</li>
