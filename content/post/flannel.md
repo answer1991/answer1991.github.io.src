@@ -95,7 +95,7 @@ sed -e "s@$(grep -o -- "--mtu=[[:graph:]]*" $DOCKER_CONF)@--mtu=${FLANNEL_MTU}@g
 
 ````bash
 $ cat /etc/systemd/system/docker.service |grep ExecStart
-ExecStart=/usr/bin/docker daemon -H fd:// --tlsverify --tlscacert /etc/docker/ca.pem --tlscert=/etc/docker/server.pem --tlskey=/etc/docker/server-key.pem --log-opt max-size=200m  --log-opt max-file=5 -H tcp://0.0.0.0:2376  --insecure-registry=acs-reg.sqa.alipay.net  --insecure-registry=alipay.docker.io  --registry-mirror=https://ant.mirror.aliyuncs.com --cluster-store= --storage-driver=overlay  --bip=192.168.66.1/24 --mtu=1472
+ExecStart=/usr/bin/docker daemon -H fd:// --tlsverify --tlscacert /etc/docker/ca.pem --tlscert=/etc/docker/server.pem --tlskey=/etc/docker/server-key.pem --log-opt max-size=200m  --log-opt max-file=5 -H tcp://0.0.0.0:2376   --cluster-store= --storage-driver=overlay  --bip=192.168.66.1/24 --mtu=1472
 ````
 
 ### 5. 删除docker0，重启docker daemon
